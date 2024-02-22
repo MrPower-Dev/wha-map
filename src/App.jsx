@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import MapDisplayWithMarkers from './components/MapDisplayWithMarkers';
+import UserLocationAndSearch from './components/UserLocationAndSearch';
 import './App.css';
 
 /**
@@ -37,6 +38,7 @@ function App() {
       </div>
       <div style={{ textAlign: 'center' }} className={showMap === 2 ? 'visible' : 'hidden'}>
         <h3>User Location and Search</h3>
+        <UserLocationAndSearch />
       </div>
       <div style={{ textAlign: 'center' }} className={showMap === 3 ? 'visible' : 'hidden'}>
         <h3>Directions Functionality</h3>

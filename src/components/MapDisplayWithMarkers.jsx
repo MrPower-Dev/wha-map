@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import axios from 'axios';
-
 import { GoogleMap, LoadScript, MarkerF, InfoWindow } from '@react-google-maps/api';
+import axios from 'axios';
 
 const MapDisplayWithMarkers = () => {
   const [markers, setMarkers] = useState([]);
