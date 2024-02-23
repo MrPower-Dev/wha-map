@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import MapDisplayWithMarkers from './components/MapDisplayWithMarkers';
 import UserLocationAndSearch from './components/UserLocationAndSearch';
+import DirectionsFunctionality from './components/DirectionsFunctionality';
 import './App.css';
 
 /**
@@ -42,6 +43,7 @@ function App() {
       </div>
       <div style={{ textAlign: 'center' }} className={showMap === 3 ? 'visible' : 'hidden'}>
         <h3>Directions Functionality</h3>
+        <DirectionsFunctionality />
       </div>
     </div>
   );
