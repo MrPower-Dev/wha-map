@@ -24,10 +24,9 @@
   
   body {
     margin: 0;
-    display: flex;
     place-items: center;
     min-width: 320px;
-    min-height: 100vh;
+    min-height: 0;
   }
   
   h1 {
@@ -78,4 +77,9 @@
     border: 1px solid #ced4da;
     border-radius: 0.25rem;
     transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.btn-active {
+  background-color: #0d6efd;
+  color: #ffffff;
 }
